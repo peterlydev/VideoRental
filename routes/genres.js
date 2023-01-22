@@ -35,19 +35,19 @@ const router = express.Router();
 
     const genre = await Genre.findByIdAndUpdate(req.params.id, { name: req.body.name }, {
       new: true
-    }));
+    });
     
     if (!genre) return res.status(404).send("Genre ID not found!");
   
     res.send(genre);
-  });
+  }));
   
-  router.delete("/:id", [auth, admin], async (req, res) => {
+  router.delete("/:id", [auth, admin], asyncMiddleware(async (req, res) => {
     const genre = await Genre.findByIdAndRemove(req.params.id);
     
     if (!genre) return res.status(404).send("Genre ID not found!");
     
     res.send(genre);
-  });
+  }));
 
   module.exports = router;
