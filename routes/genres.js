@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
   
-  router.get("/", asyncMiddlware(async (req, res) => {
+  router.get("/", asyncMiddleware(async (req, res) => {
       const genres = await Genre.find().sort('name');
       res.send(genres);
   }));
@@ -19,7 +19,7 @@ const router = express.Router();
     res.send(genre);
   });
   
-  router.post('/', auth, asyncMiddlware(async (req, res) => {
+  router.post('/', auth, asyncMiddleware(async (req, res) => {
     const { error } = validate(req.body); 
     if (error) return res.status(400).send(error.details[0].message);
   
@@ -29,13 +29,13 @@ const router = express.Router();
     res.send(genre);
   }));
   
-  router.put("/:id", async (req, res) => {
+  router.put("/:id", asyncMiddleware(async (req, res) => {
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 
     const genre = await Genre.findByIdAndUpdate(req.params.id, { name: req.body.name }, {
       new: true
-    });
+    }));
     
     if (!genre) return res.status(404).send("Genre ID not found!");
   
