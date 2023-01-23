@@ -28,7 +28,8 @@ winston.add(winston.transports.MongoDB, {
   level: "info"
 });
 
-throw new Error('Something failed during startup.');
+const p = Promise.reject(new Error('Something failed miserably!'));
+p.then(() => console.log('Done!'));
 
 if (!config.get("jwtPrivateKey")) {
   console.error("FATAL ERROR: jwtPrivateKey is not defined!");
