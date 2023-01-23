@@ -17,7 +17,7 @@ const auth = require("./routes/auth");
 const express = require("express");
 const app = express();
 
-process.on('uncaughtException', (ex) => {
+process.on('unhandledRejection', (ex) => {
   console.log("WE GOT AN UNCAUGHT EXCEPTION");
   winston.error(ex.message, ex);
 })
