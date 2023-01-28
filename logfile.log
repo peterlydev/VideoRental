@@ -1,2 +1,4 @@
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2023-01-28T14:02:56.929Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2023-01-28T14:03:33.074Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:27:46.355Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:27:46.406Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:28:10.316Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:28:10.373Z"}
