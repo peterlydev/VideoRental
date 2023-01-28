@@ -44,5 +44,5 @@ describe("/api/genres", () => {
         
         expect(res.status).toBe(404);
     });
-  })
+  });
 });
