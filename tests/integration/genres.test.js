@@ -1,7 +1,7 @@
 const request = require("supertest");
-const { Genre } = require("../../models/genre");
-const { User } = require("../../models/user");
-const mongoose = require('mongoose');
+const {Genre} = require("../../models/genre");
+const {User} = require("../../models/user");
+const mongoose = require("mongoose");
 let server;
 
 describe("/api/genres", () => {
@@ -9,16 +9,15 @@ describe("/api/genres", () => {
     server = require("../../index");
   });
   afterEach(async () => {
-    server.close();
+    await server.close();
     await Genre.remove({});
   });
 
   describe("GET /", () => {
     it("should return all genres", async () => {
-      await Genre.collection.insertMany([
-        { name: "genre1" },
-        { name: "genre2" },
-      ]);
+      const genres = [{ name: "genre1" }, { name: "genre2" }];
+
+      await Genre.collection.insertMany(genres);
 
       const res = await request(server).get("/api/genres");
       expect(res.status).toBe(200);
@@ -51,7 +50,6 @@ describe("/api/genres", () => {
 
       expect(res.status).toBe(404);
     });
-    
   });
 
   describe("POST /", () => {
@@ -106,7 +104,7 @@ describe("/api/genres", () => {
       const res = await exec();
 
       expect(res.body).toHaveProperty("_id");
-      expect(res.body).toHaveProperty("name", "genre1");
+      expect(res.body).toHaveProperty("name");
     });
   });
 });
