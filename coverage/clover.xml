@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674923955934" clover="3.2.0">
-  <project timestamp="1674923955934" name="All files">
-    <metrics statements="281" coveredstatements="182" conditionals="64" coveredconditionals="10" methods="40" coveredmethods="15" elements="385" coveredelements="207" complexity="0" loc="281" ncloc="281" packages="5" files="21" classes="21"/>
+<coverage generated="1674924755781" clover="3.2.0">
+  <project timestamp="1674924755781" name="All files">
+    <metrics statements="281" coveredstatements="182" conditionals="64" coveredconditionals="11" methods="40" coveredmethods="15" elements="385" coveredelements="208" complexity="0" loc="281" ncloc="281" packages="5" files="21" classes="21"/>
     <package name="vidly">
       <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="index.js" path="C:\Users\Peter Ly\Desktop\FutureProof\post-fp\vanillaJS\vidly\index.js">
@@ -51,9 +51,9 @@
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
     </package>
     <package name="vidly.models">
@@ -119,7 +119,7 @@
       </file>
     </package>
     <package name="vidly.routes">
-      <metrics statements="164" coveredstatements="77" conditionals="54" coveredconditionals="3" methods="22" coveredmethods="3"/>
+      <metrics statements="164" coveredstatements="77" conditionals="54" coveredconditionals="4" methods="22" coveredmethods="3"/>
       <file name="auth.js" path="C:\Users\Peter Ly\Desktop\FutureProof\post-fp\vanillaJS\vidly\routes\auth.js">
         <metrics statements="19" coveredstatements="9" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
@@ -174,7 +174,7 @@
         <line num="57" count="2" type="stmt"/>
       </file>
       <file name="genres.js" path="C:\Users\Peter Ly\Desktop\FutureProof\post-fp\vanillaJS\vidly\routes\genres.js">
-        <metrics statements="31" coveredstatements="23" conditionals="10" coveredconditionals="3" methods="5" coveredmethods="3"/>
+        <metrics statements="31" coveredstatements="23" conditionals="10" coveredconditionals="4" methods="5" coveredmethods="3"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -186,8 +186,8 @@
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="20" count="1" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
         <line num="24" count="5" type="stmt"/>
