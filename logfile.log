@@ -2,3 +2,20 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:27:46.406Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:28:10.316Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:28:10.373Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:28:33.150Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:28:33.198Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:29:37.178Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:29:37.219Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:31:43.265Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:32:25.417Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:32:25.456Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:33:34.562Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2023-01-28T14:33:34.618Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:35:49.899Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:35:49.951Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:37:05.653Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:37:05.702Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:38:42.593Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:38:42.637Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T14:38:56.805Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T14:38:56.850Z"}
