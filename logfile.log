@@ -140,3 +140,58 @@
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:03:23.793Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:03:23.828Z"}
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:03:23.894Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:04:38.509Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:04:38.565Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:04:38.613Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:04:38.609Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:04:38.618Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:04:38.802Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:24:13.768Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:24:13.828Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:24:13.842Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:24:13.914Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:24:13.971Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:24:14.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:24:14.009Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:25:52.580Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:25:52.635Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:25:52.617Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:25:52.633Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:25:52.629Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:25:52.680Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:25:52.847Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:26:17.684Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:26:17.844Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:26:17.954Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:26:17.899Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:26:17.915Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:26:18.006Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:26:18.122Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:26:18.059Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:29:25.022Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:29:25.079Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:29:25.117Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:29:25.193Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:29:25.212Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:29:25.484Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:29:25.530Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:29:25.729Z"}
+{"message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Peter Ly\\Desktop\\FutureProof\\post-fp\\vanillaJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Peter Ly\\Desktop\\FutureProof\\post-fp\\vanillaJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"valueType":"string","level":"error","timestamp":"2023-01-28T17:29:25.857Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:29:25.911Z"}
+{"message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Peter Ly\\Desktop\\FutureProof\\post-fp\\vanillaJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4498:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Peter Ly\\Desktop\\FutureProof\\post-fp\\vanillaJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4592:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"valueType":"string","level":"error","timestamp":"2023-01-28T17:29:25.928Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:29:57.533Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:29:57.588Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:29:57.649Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:29:57.703Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:29:57.728Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:29:57.860Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:29:57.906Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:29:58.083Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:31:41.936Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:31:41.998Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:31:42.026Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:31:42.040Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:31:42.044Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2023-01-28T17:31:42.248Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2023-01-28T17:31:42.294Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2023-01-28T17:31:42.346Z"}

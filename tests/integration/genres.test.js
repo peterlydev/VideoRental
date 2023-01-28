@@ -106,7 +106,7 @@ describe("/api/genres", () => {
       const res = await exec();
 
       expect(res.body).toHaveProperty("_id");
-      expect(res.body).toHaveProperty("name");
+      expect(res.body).toHaveProperty("name", "genre1");
     });
   });
 });
