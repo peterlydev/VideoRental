@@ -40,7 +40,7 @@ describe("api/returns", () => {
   });
 
   afterEach(async () => {
-    await server.close();
+    server.close();
     await Rental.remove({});
   });
 
