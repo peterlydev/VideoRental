@@ -90,4 +90,10 @@ describe("api/returns", () => {
 
     expect(res.status).toBe(200);
   });
+
+  it("should set the return date if input is valid", async () => {
+    const res = await exec();
+
+    expect(res.status).toBe(200);
+  });
 });
